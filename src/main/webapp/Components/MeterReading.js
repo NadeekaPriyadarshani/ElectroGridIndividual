@@ -58,7 +58,7 @@ $(document).on("click", ".btnRemove", function(event)
  	{
  		url : "meterreadingAPI",
  		type : "DELETE",
- 		data : "id=" + $(this).data("UserID"),
+ 		data : "id=" + $(this).data("billid"),
  		dataType : "text",
  		complete : function(response, status)
  		{
